@@ -30,7 +30,7 @@
 
         <dependency>
             <groupId>org.springframework</groupId>
-            <artifactId>spring-aop</artifactId>
+            <artifactId>spring-aspects</artifactId>
         </dependency>
 
         <dependency>
