@@ -28,6 +28,12 @@ public interface UserMapper {
     User selectByPrimaryKey(Integer id);
 
     /**
+     * 自己写的
+     * @param id
+     * @return
+     */
+    User queryUserById(Integer id);
+    /**
      *
      * @mbggenerated 2018-12-22
      */

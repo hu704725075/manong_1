@@ -15,10 +15,10 @@ import org.springframework.stereotype.Service;
 public class UserServiceImpl implements IUserService{
 
     @Autowired
-    private UserMapper userMapper;
+    UserMapper userMapper;
 
     @Override
     public User queryUserById(Integer userId) {
-        return userMapper.selectByPrimaryKey(userId);
+        return userMapper.queryUserById(userId);
     }
 }
