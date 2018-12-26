@@ -1,7 +1,7 @@
 package com.manong.service;
 
-import org.springframework.stereotype.Service;
 import pojo.EasyUiTree;
+import pojo.ResponseJsonResult;
 
 import java.util.List;
 
@@ -13,4 +13,8 @@ import java.util.List;
 public interface IProductCategroyService {
 
     List<EasyUiTree> findProductCategoryListByParentId(Integer parentId);
+
+    ResponseJsonResult addProduceCategory(Integer parentId,String name);
+
+    ResponseJsonResult deleteProduceCategory(Integer parentId,Integer id);
 }

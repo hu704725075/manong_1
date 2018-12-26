@@ -21,7 +21,6 @@
                 <span>商品分类管理</span>
                 <ul>
                     <li data-options="attributes:{'url':'product_category_list'}">商品分类列表</li>
-                    <li data-options="attributes:{'url':'product_catgory_add'}">商品分类添加</li>
                 </ul>
             </li>
             <li>

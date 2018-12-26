@@ -10,6 +10,15 @@ public class EasyUiTree {
     private Integer id;
     private String text;
     private String state;
+    private String attributes;
+
+    public String getAttributes() {
+        return attributes;
+    }
+
+    public void setAttributes(String attributes) {
+        this.attributes = attributes;
+    }
 
     public Integer getId() {
         return id;
@@ -33,5 +42,14 @@ public class EasyUiTree {
 
     public void setState(String state) {
         this.state = state;
+    }
+
+    @Override
+    public String toString() {
+        return "EasyUiTree{" +
+                "id=" + id +
+                ", text='" + text + '\'' +
+                ", state='" + state + '\'' +
+                '}';
     }
 }
